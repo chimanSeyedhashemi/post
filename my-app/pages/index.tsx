@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { Footer } from "../components/Layout/Footer";
+import { Header } from "../components/Layout/Header";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/icon-144x144.png" />
       </Head>
       <div className={styles.container}>
+        <Header />
         <Footer />
       </div>
     </>
